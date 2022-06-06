@@ -64,6 +64,8 @@ body{
 }
 #he 
 {
+     width:70%;
+     height:60%;
     box-shadow:.17rem .7rem 1rem cyan;
     border-radius:15%;
     margin-left:10%;
