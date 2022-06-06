@@ -121,7 +121,13 @@ a{color:skyblue;}
 }
 .certificates .c1 img ,.c2 img, .c3 img ,.c4 img
 {
-   display:inline-flex;
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-gap: 10px;
+   /* display:grid;
+   grid-template-columns:1fr 1fr;
+   grid-template-rows:1fr 1fr; */
    margin:20%;
    justify-content:space-evenly;
    padding-right:10%;
@@ -131,10 +137,15 @@ a{color:skyblue;}
     margin-left:20%
 }
 .c1 a , .c2 a, .c3 a, .c4 a{
-    font-size:90%;
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(1, 100px); 
+    grid-gap: 100%;
+    margin-right:100%;
+     font-size:90%;
     font-weight:bolder;
    text-align: center;
-   margin-left:7%;
+   margin-left:7%; 
 }
 .box-1 , .box-2 , .box-3{
     margin-top:100px;
@@ -309,5 +320,11 @@ animation: C 3s;
 }
 .list .active {
     position:fixed;
+    /* margin-right:0%; */
+}
+.list .active {
+    position:fixed;
+    top:0%;
+    right:0%;
     /* margin-right:0%; */
 }
