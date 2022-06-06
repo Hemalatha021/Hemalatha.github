@@ -71,7 +71,7 @@ body{
 }
 .list li
 {
-    color:red;
+/*     color:red; */
     list-style:square;
     margin-top:-3%;
     margin-left:40%;
