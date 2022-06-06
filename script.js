@@ -1,5 +1,5 @@
 document.getElementById("hrp").onclick=function(){
- location.href="https://www.hackerrank.com/20L31A05J3";
+ location.href="https://www.hackerrank.com/pulletihemalatha";
 };
 document.getElementById("hep").onclick=function(){
     location.href="https://www.hackerearth.com/@hemalatha324 ";
